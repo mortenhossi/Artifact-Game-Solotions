@@ -76,21 +76,18 @@ nav a:hover {
   margin-top: 100px;
 }
 
-.box {
-  float: left;
-  width: 20%;
-  padding: 80px;
+.showcase-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+  .box {
   margin-top: 20px;
   text-align: center;
 }
 
-.vrpic {
-  width: 350px;
-  height: 270px;
-}
-
 .box h3 {
-  color: white;
+  color: white;*/
 }
 
 
