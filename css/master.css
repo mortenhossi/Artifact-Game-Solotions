@@ -3,7 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #1a1a1a
+  background-color: #1d1d1b;
 }
 
 /* nav styles */
@@ -14,17 +14,12 @@ body {
   z-index: 1;
 }
 
-nav{
-  background: #1d1d1b;
-  background-color: transparent;
-  padding: 20px;
-  background: #1d1d1b;
-}
-
 /*links in navbar*/
 nav{
   display: flex;
   align-items: center;
+  background: #1d1d1b;
+  padding: 20px;
 }
 nav ul{
   list-style: none;
@@ -38,7 +33,7 @@ nav li{
   margin: 0 30px;
 }
 nav a{
-  color: #fff;
+  color: white;
   font-size: 20px;
   text-decoration: none;
 
@@ -87,22 +82,42 @@ nav a:hover {
   text-align: center;
 }
 
+#contact {
+  display: flex;
+  margin-top: 100px;
+  color: white;
+}
 
 
 
 
 
 .contactquote {
-  position: absolute;
-  top: 190%;
-  left: 38%;
-  transform: translate(-50%, -50%);
   color: white;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
+  padding-top: 20px;
+  margin: auto;
   text-align: center;
-  font-size: 13px;
-  margin-top: 200px;
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  padding-top: 20px;
+}
+
+.form input, textarea {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid gray;
 }
 
 /* footer styles */
