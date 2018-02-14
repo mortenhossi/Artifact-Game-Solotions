@@ -16,7 +16,6 @@ body {
 
 nav{
   background: #1d1d1b;
-  background-color: transparent;
   padding: 20px;
 }
 
@@ -48,9 +47,7 @@ nav a{
 nav a:hover {
   color: #e60000;
 }
-.active{
-  color: #e60000;
-}
+
 
 
 /* header styles */
@@ -89,10 +86,7 @@ nav a:hover {
 }
 
 .contactquote {
-  position: absolute;
-  top: 190%;
-  left: 38%;
-  transform: translate(-50%, -50%);
+  width: 50%;
   color: white;
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
