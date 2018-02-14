@@ -120,3 +120,32 @@ nav a:hover {
 }
 
 /* footer styles */
+footer {
+  background: #E60000;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-left: 12px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.social-media {
+  margin-left: auto;
+}
