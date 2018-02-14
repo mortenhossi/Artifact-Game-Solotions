@@ -73,10 +73,43 @@ nav a:hover {
 
 
 /* section styles */
-.box {
-  float: left;
-  width: 30%;
-  padding: 10px;
+.line {
+  width: 80%;
+  margin-top: 100px;
 }
 
+.box {
+  float: left;
+  width: 20%;
+  padding: 80px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+.vrpic {
+  width: 350px;
+  height: 270px;
+}
+
+.box h3 {
+  color: white;
+}
+
+
+
+
+=======
+.contactquote {
+  position: absolute;
+  top: 190%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+>>>>>>> 5700cb355b11a80d9fee2118a5ce681468e7d9b7
 /* footer styles */
