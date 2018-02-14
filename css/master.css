@@ -18,7 +18,7 @@ nav{
   background: #1d1d1b;
   background-color: transparent;
   padding: 20px;
-  background: #1D1D1B;
+  background: #1d1d1b;
 }
 
 nav img {
@@ -49,9 +49,7 @@ nav a{
 nav a:hover {
   color: #e60000;
 }
-.active{
-  color: #e60000;
-}
+
 
 
 /* header styles */
@@ -78,21 +76,27 @@ nav a:hover {
   margin-top: 100px;
 }
 
+<<<<<<< HEAD
 .box {
   float: left;
   width: 20%;
   padding: 30px;
   margin-top: 20px;
   text-align: center;
+=======
+.showcase-container {
+  display: flex;
+  justify-content: space-around;
+>>>>>>> 90f4d37d1f07231d0d461927347a990c1fd35fe8
 }
 
-.vrpic {
-  width: 350px;
-  height: 270px;
+  .box {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .box h3 {
-  color: white;
+  color: white;*/
 }
 
 
