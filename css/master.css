@@ -97,7 +97,7 @@ nav a:hover {
 
 #contact {
   display: flex;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   color: white;
 }
 
@@ -115,6 +115,14 @@ nav a:hover {
 
 .contactquote p {
   margin-top: 20px;
+}
+
+.quote {
+  background: #333333;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  color: white;
 }
 
 .contact-form {
@@ -148,9 +156,9 @@ nav a:hover {
 
 /* footer styles */
 footer {
-  background: #E60000;
+  background: #333333;
   width: 100%;
-  color: white;
+  color: #e60000;
   display: flex;
   align-items: center;
   margin-top: 50px;
@@ -165,7 +173,7 @@ footer p {
   font-size: 30px;
   width: 40px;
   text-decoration: none;
-  color: white;
+  color: #e60000  ;
 }
 
 .fa:hover {
