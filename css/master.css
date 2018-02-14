@@ -76,18 +76,17 @@ nav a:hover {
   margin-top: 100px;
 }
 
-<<<<<<< HEAD
 .box {
   float: left;
   width: 20%;
   padding: 30px;
   margin-top: 20px;
   text-align: center;
-=======
+
 .showcase-container {
   display: flex;
   justify-content: space-around;
->>>>>>> 90f4d37d1f07231d0d461927347a990c1fd35fe8
+
 }
 
   .box {
