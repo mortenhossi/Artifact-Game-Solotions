@@ -23,7 +23,7 @@ nav{
 
 nav img {
   float: left;
-    
+
 }
 
 /*links in navbar*/
@@ -86,7 +86,6 @@ nav a:hover {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .vrpic {
   width: 350px;
   height: 270px;
@@ -99,7 +98,7 @@ nav a:hover {
 
 
 
-=======
+
 .contactquote {
   position: absolute;
   top: 190%;
@@ -111,5 +110,5 @@ nav a:hover {
   text-align: center;
   font-size: 13px;
 }
->>>>>>> 5700cb355b11a80d9fee2118a5ce681468e7d9b7
+
 /* footer styles */
