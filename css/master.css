@@ -3,6 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #1a1a1a
 }
 
 /* nav styles */
@@ -51,6 +52,10 @@ nav a:hover {
 
 
 /* section styles */
-
+.box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
 
 /* footer styles */
