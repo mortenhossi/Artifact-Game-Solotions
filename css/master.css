@@ -4,6 +4,41 @@ body {
 }
 
 /* nav styles */
+.nav{
+  margin: 0px;
+  width: 100%;
+}
+nav{
+  background: #1d1d1b;
+  padding: 20px;
+}
+
+/*links in navbar*/
+nav{
+  float: none;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+nav li{
+  display: inline-block;
+  margin: 0 30px;
+}
+nav a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+nav a:hover {
+  color: #e60000;
+}
+.active{
+  color: #e60000;
+}
 
 
 /* header styles */
