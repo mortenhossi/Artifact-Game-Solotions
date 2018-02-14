@@ -9,10 +9,14 @@ body {
 .nav{
   margin: 0px;
   width: 100%;
+  position: fixed;
+
 }
 nav{
   background: #1d1d1b;
+  background-color: transparent;
   padding: 20px;
+  background: rgba(0,0,0,0.5);
 }
 
 /*links in navbar*/
