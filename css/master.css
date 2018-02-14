@@ -99,6 +99,15 @@ nav a:hover {
   flex: 1;
 }
 
+.contactquote h2, p {
+  width: 80%;
+  margin: auto;
+}
+
+.contactquote p {
+  margin-top: 20px;
+}
+
 .contact-form {
   flex: 1;
   padding-top: 20px;
