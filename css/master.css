@@ -18,7 +18,7 @@ nav{
   background: #1d1d1b;
   background-color: transparent;
   padding: 20px;
-  background: #1D1D1B;
+  background: #1d1d1b;
 }
 
 nav img {
@@ -49,9 +49,7 @@ nav a{
 nav a:hover {
   color: #e60000;
 }
-.active{
-  color: #e60000;
-}
+
 
 
 /* header styles */
