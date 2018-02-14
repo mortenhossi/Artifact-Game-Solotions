@@ -67,10 +67,29 @@ nav a:hover {
 
 
 /* section styles */
+.line {
+  width: 80%;
+  margin-top: 100px;
+}
+
 .box {
   float: left;
-  width: 30%;
-  padding: 10px;
+  width: 20%;
+  padding: 80px;
+  margin-top: 20px;
+  text-align: center;
 }
+
+.vrpic {
+  width: 350px;
+  height: 270px;
+}
+
+.box h3 {
+  color: white;
+}
+
+
+
 
 /* footer styles */
