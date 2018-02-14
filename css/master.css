@@ -73,4 +73,15 @@ nav a:hover {
   padding: 10px;
 }
 
+.contactquote {
+  position: absolute;
+  top: 190%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+}
 /* footer styles */
