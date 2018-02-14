@@ -42,7 +42,10 @@ nav a:hover {
   color: #e60000;
 }
 
-
+.highlight {
+  color: #e60000;
+  font-weight: bold;
+}
 
 
 
@@ -82,6 +85,8 @@ nav a:hover {
 .box {
   margin-top: 100px;
   text-align: center;
+  color: white;
+  width: 100%;
 }
 
 #contact {
