@@ -151,6 +151,10 @@ nav a:hover {
   margin-top: 20px;
 }
 
+.contact-form h2 {
+  margin-top: 100px;
+}
+
 .form label {
   padding-top: 20px;
   padding-bottom: 5px;
