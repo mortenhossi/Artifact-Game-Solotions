@@ -72,7 +72,7 @@ nav a:hover {
   width: 90%;
   margin-top: 100px;
   margin-bottom: 100px;
-  
+  border: 1px solid #e60000;
 }
 
 .showcase-container {
@@ -80,6 +80,7 @@ nav a:hover {
   justify-content: space-between;
   width: 90%;
   margin: auto;
+
 }
 
 
@@ -91,12 +92,15 @@ nav a:hover {
   text-align: center;
   color: white;
   flex: 1;
-  width: 350px;
 }
 
 .showcase-text {
   width: 80%;
   margin: 0 auto;
+}
+
+.vrpic {
+  max-width: 100%;
 }
 
 #contact {
