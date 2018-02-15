@@ -80,9 +80,7 @@ nav a:hover {
   justify-content: space-between;
   width: 90%;
   margin: auto;
-
 }
-
 
 .box h3 {
   color: white;
@@ -143,8 +141,14 @@ nav a:hover {
   align-items: center;
 }
 
-.contact-form h2 {
+.contact-form h2, .contact-form h3, .contact-form p {
   text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.contact-form h3, .contact-form p {
+  margin-top: 20px;
 }
 
 .form label {
@@ -155,8 +159,7 @@ nav a:hover {
 
 .form input, textarea {
   padding: 5px;
-  border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
 
 .form input {
@@ -166,6 +169,16 @@ nav a:hover {
 .form textarea {
   width: 40%;
   resize: none;
+}
+
+.form .submit {
+  margin-top: 30px;
+  width: 10%;
+}
+
+.submit:hover {
+  background: #333333;
+  color: white;
 }
 
 /* footer styles */
