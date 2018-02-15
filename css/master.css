@@ -69,21 +69,25 @@ nav a:hover {
 
 /* section styles */
 .line {
-  width: 80%;
+  width: 90%;
   margin-top: 100px;
+  margin-bottom: 100px;
+  
 }
 
 .showcase-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
+
 
 .box h3 {
   color: white;
 }
 
 .box {
-  margin-top: 100px;
   text-align: center;
   color: white;
   flex: 1;
@@ -96,8 +100,8 @@ nav a:hover {
 }
 
 #contact {
-  display: flex;
-  /*margin-top: 100px;*/
+  width: 90%;
+  margin: auto;
   color: white;
 }
 
@@ -105,7 +109,6 @@ nav a:hover {
   padding-top: 20px;
   margin: auto;
   text-align: center;
-  flex: 1;
 }
 
 .contactquote h2 {
@@ -119,24 +122,31 @@ nav a:hover {
 
 .quote {
   background: #333333;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   margin: auto;
   color: white;
 }
 
 .contact-form {
-  flex: 1;
   padding-top: 20px;
+  margin: auto;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.contact-form h2 {
+  text-align: center;
 }
 
 .form label {
   padding-top: 20px;
+  padding-bottom: 5px;
+  width: 40%;
 }
 
 .form input, textarea {
@@ -146,11 +156,11 @@ nav a:hover {
 }
 
 .form input {
-  width: 50%;
+  width: 40%;
 }
 
 .form textarea {
-  width: 80%;
+  width: 40%;
   resize: none;
 }
 
@@ -158,10 +168,9 @@ nav a:hover {
 footer {
   background: #333333;
   width: 100%;
-  color: #e60000;
+  color: white;
   display: flex;
   align-items: center;
-  margin-top: 50px;
 }
 
 footer p {
@@ -173,7 +182,7 @@ footer p {
   font-size: 30px;
   width: 40px;
   text-decoration: none;
-  color: #e60000  ;
+  color: white;
 }
 
 .fa:hover {
