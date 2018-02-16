@@ -20,6 +20,7 @@ nav{
   align-items: center;
   background: #1d1d1b;
   padding: 20px;
+  height: 20px;
 }
 nav ul{
   list-style: none;
@@ -71,7 +72,6 @@ nav a:hover {
 .line {
   width: 90%;
   margin-top: 100px;
-  margin-bottom: 100px;
   border: 1px solid #e60000;
 }
 
@@ -80,6 +80,7 @@ nav a:hover {
   justify-content: space-between;
   width: 90%;
   margin: auto;
+  padding-top: 60px;
 }
 
 .box h3 {
@@ -105,6 +106,7 @@ nav a:hover {
   width: 90%;
   margin: auto;
   color: white;
+  padding-top: 60px;
 }
 
 .contactquote {
@@ -130,7 +132,7 @@ nav a:hover {
   color: white;
 }
 
-.contact-form {
+#contact-form {
   padding-top: 20px;
   margin: auto;
 }
@@ -141,17 +143,17 @@ nav a:hover {
   align-items: center;
 }
 
-.contact-form h2, .contact-form h3, .contact-form p {
+#contact-form h2, #contact-form h3, #contact-form p {
   text-align: center;
   width: 40%;
   margin: auto;
 }
 
-.contact-form h3, .contact-form p {
+#contact-form h3, #contact-form p {
   margin-top: 20px;
 }
 
-.contact-form h2 {
+#contact-form h2 {
   margin-top: 100px;
 }
 
