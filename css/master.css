@@ -190,7 +190,7 @@ video {
 .form .submit {
   margin-top: 30px;
   width: 10%;
-  border: 2px solid #e60000;
+  border: 1px solid #e60000;
   background: #333333;
   color: white;
 }
